@@ -1,0 +1,156 @@
+.body-main
+	margin-top 73px
+
+.body-h2
+	font-size 24px
+	font-family font-f__PTSansBold
+	color text__color
+
+.body-p
+	margin-top 15px
+	font-family font-f__PTSansRegular
+	font-size 15px
+	line-height 22px
+	color text__comment__color
+
+/***** Style checkbox ********/
+
+.body-wrapp-checkbox
+	margin-top 30px
+	display flex
+	justify-content flex-start
+
+.wrapp-check-box_position
+	position relative
+	left 10px
+
+.wrapper-check-box__div
+	margin-bottom 13px
+	width 260px
+
+.checkbox + label 
+	cursor pointer
+
+.checkbox-label
+	font-family font-f__PTSansBold
+	font-size 21px
+	color text__color__label
+
+.checkbox-label__span
+	position relative
+	left 30px
+	top 5px
+
+.checkbox-label__a
+	color text__a__color
+
+.checkbox:not(checked) 
+	position absolute
+	opacity 0
+
+.checkbox:not(checked) + label 
+	position relative
+	padding 0 0 0 30px
+
+.checkbox:not(checked) + label:before 
+	content ''
+	position absolute
+	top 6px
+	left 0
+	width 19px
+	height 18px
+	background url('images/check.png') top left no-repeat
+
+.checkbox:not(checked) + label:after 
+	content ''
+	position: absolute
+	top 9px
+	left 4px
+	width 12px
+	height 12px
+	background text__color
+	opacity 0
+	transition: all .2s
+
+.checkbox:checked + label:after 
+	opacity 1
+
+/********* javascript **********/
+
+.body-java
+	margin-top 52px
+
+.body-h2_padding-left
+	padding-left 2px
+
+
+.java-wrapp
+	margin-top 18px
+	position relative
+
+.java-wrapp__triangle
+	position absolute
+	top 8px
+
+.java__triangle
+	position absolute
+	width 17px
+	height 14px
+	left 280px
+
+.java-wrapp__comments
+	display flex
+	justify-content flex-start
+	padding-left 4px
+	position relative
+	top -4px
+
+.java-wr__comment-wr__p-1
+	width 70px
+	margin-right 78px
+
+.java-wr__comment-wr__p-2
+	width 172px
+	margin-right 52px
+	position relative
+	top -2px
+
+.java-wr__comment-wr__p-3
+	width 174px
+	margin-right 86px
+	position relative
+	top -2px
+
+.java-wr__comment-wr__p-4
+	width 142px
+	position relative
+	top 5px
+
+.java-comment__p
+	font-family font-f__PTSansBold
+	font-size 13px 
+	color text__color
+	line-height 1.3
+
+/******** Textarea ********/
+
+.body-area
+	margin-top 31px
+	padding  0 7px 0 2px
+
+.body-area-ul
+	margin-top 34px
+	margin-bottom 55px
+
+.body-area-li
+	height 40px
+	margin-bottom 19px
+	padding-bottom 9px
+	background url('images/line-text.png') -9px 8px
+	text-indent 3px
+
+.body-area__p
+	font-family font-f__CourierNew
+	font-size 30px
+	line-height 31px
+	color text__color__Courier_New

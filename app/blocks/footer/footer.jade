@@ -1,0 +1,22 @@
+.footer
+	h2.body-h2 Какие у вас планы на будущее?
+	p.body-p.body-p_indent Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются.
+	ul.footer-ul
+		li.footer-ul__li
+			input.radio#radio(type="radio", name="r", value="1")
+			label.radio__labal(for="radio") Верстать
+		li.footer-ul__li
+			input.radio#radio(type="radio", name="r", value="2", checked)
+			label.radio__labal(for="radio", style='opacity: 1') Прокачиваться в JS
+		li.footer-ul__li
+			input.radio#radio(type="radio", name="r", value="3")
+			label.radio__labal(for="radio") Менеджерство
+		li.footer-ul__li
+			input.radio#radio(type="radio", name="r", value="4")
+			label.radio__labal(for="radio") Другое
+	.footer-date
+		.footer-date-wrapp
+			.footer-date__div-p
+				.footer-date__p Дата заполенения
+			.footer-date__div-input
+				input.footer-date__input(type="text", name="")

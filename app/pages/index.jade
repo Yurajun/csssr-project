@@ -1,0 +1,10 @@
+extends /blocks/layout-default/layout-default
+
+block head
+	- var pageTitle = 'CSSSR Project Template';
+
+block content
+	include /blocks/header/header
+	include /blocks/body/body
+	include /blocks/footer/footer
+	script(src="assets/scripts/js.js")
